@@ -10,7 +10,7 @@
   background-color: snow;
   visibility: hidden;
 }
-alert{
+.alert{
   color: red;
   font-size: 2em;
 }

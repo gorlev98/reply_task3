@@ -259,8 +259,8 @@ class App extends React.Component {
       if (((obj.tempYear % 4 === 0) && (obj.tempYear % 100 !== 0)) || (obj.tempYear % 400 === 0))
         monthDays[1] = 29;
       let start = new Date(monthNames[obj.tempMonth]+" 1, "+obj.tempYear+" 01:00:00").getDay();//эта функция вернёт день недели
-      console.log("start="+start);
       //0 - воскресение, 1- понед. и т.д.
+      //только после 70 года нашей эры - какое-то внутреннее ограничение
       return {
         dayNumber: monthDays[obj.tempMonth],
         monthName: monthNames[obj.tempMonth],
