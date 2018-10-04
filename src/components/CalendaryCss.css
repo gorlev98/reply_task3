@@ -1,0 +1,15 @@
+.calendaryBlock{
+  position: absolute;
+  width: 149px;
+  height: 149px;
+  border:1px solid black;
+  font-size: 1.2em;
+  font-style: italic;
+}
+.smallBlock{
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  border:1px solid black;
+  font-style: italic;
+}

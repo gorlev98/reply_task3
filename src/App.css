@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.changeMonthBlock{
+  position: absolute;
+  left: 1150px;
+  top:200px;
+  width:350px;
+  height: 50px;
+}
+.changeLeft{
+  position: inherit;
+  top:0px;
+  width: 50px;
+  height: 50px;
+  font-size: 2.5em;
+  text-align: center;
+}
+.changeRight{
+  position: inherit;
+  left: 300px;
+  top:0px;
+  width: 50px;
+  height: 50px;
+  font-size: 2.5em;
+  text-align: center;
+}
+.monthInfo{
+  position: inherit;
+  left:50px;
+  top:0px;
+  width: 250px;
+  height: 50px;
+  font-size: 2em;
+  text-align: center;
+}
+.setMonthComponent{
+  position: absolute;
+  top:30px;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  left:1200px;
+}
+.changeSize{
+  position: inherit;
+  top:75px;
+  left:75px;
+  width:200px;
+  height: 30px;
+  font-size: 1em;
+  text-align: center;
+}
+.addEvent{
+  position: absolute;
+  left:1250px;
+  top: 350px;
+  width: 150px;
+  height: 150px;
+  font-size: 5em;
+  text-align: center;
+}
+
